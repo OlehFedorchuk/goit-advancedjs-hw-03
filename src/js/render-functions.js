@@ -8,6 +8,7 @@ let lightbox;
 
 export function renderTemplate(data) {
   const done = data.hits
+
     .map(
       ({
         webformatURL,

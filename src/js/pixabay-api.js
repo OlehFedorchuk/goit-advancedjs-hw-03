@@ -1,5 +1,6 @@
 import { hideLoader, renderTemplate, showLoader } from './render-functions';
 import iziToast from 'izitoast';
+const galleryEl = document.querySelector('.gallery');
 
 export function fetchImages(request) {
   const { url, key, q, image_type, orientation, safesearch } = request;
@@ -15,6 +16,7 @@ export function fetchImages(request) {
     })
     .then(data => {
       if (data.total === 0) {
+        galleryEl.innerHTML = '';
         iziToast.show({
           position: 'topRight',
           color: 'red',
