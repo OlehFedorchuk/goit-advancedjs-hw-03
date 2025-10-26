@@ -1,0 +1,36 @@
+.inputFild {
+  width: 272px;
+  height: 30px;
+  margin-left: 30%;
+
+}
+
+.btnSearchImg {
+  width: 91px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.btnSearchImg:hover {
+  background-color: #6C8CFF;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+
+}
+
+.card {
+  border: solid 1px #808080;
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+}
