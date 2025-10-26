@@ -1,7 +1,7 @@
 import { fetchImages } from './js/pixabay-api';
 import { hideLoader, showLoader } from './js/render-functions';
 
-const formEl = document.querySelector('#form');
+const formEl = document.querySelector('.form');
 const inputFieldEl = document.querySelector('.inputFild');
 const btnSearchImgEl = document.querySelector('.btnSearchImg');
 btnSearchImgEl.disabled = true;
